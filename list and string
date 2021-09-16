@@ -6,7 +6,7 @@ for x in l:
     print(x , end=" ")   
 _________________________________________________________________
 
-#	2.Program to demonstrate Tuple
+# 2.Program to demonstrate Tuple
 
 fruit = ("apple",)
 fruit.append("hello") #gives error as tuples are immutable
