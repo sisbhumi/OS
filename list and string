@@ -1,0 +1,26 @@
+# 1.Program to show list comprehension
+
+l = [ 'hello' , 'user' , 1 ]
+
+for x in l:
+    print(x , end=" ")   
+_________________________________________________________________
+
+#	2.Program to demonstrate Tuple
+
+fruit = ("apple",)
+fruit.append("hello") #gives error as tuples are immutable
+
+x = list(fruit)
+x.append("mango")
+y = tuple(x)
+____________________________________________________________________
+
+# 3.Program to demonstrate String in Python
+
+s = "Hello friends chai pee lo! "
+print(s)         #Hello friends chai pee lo!
+print(s[4:10])   #o frie
+print(s[1:15:2]) #el red 
+print(s[::-1])   #!ol eep iahc sdneirf olleH
+_____________________________________________________________________
